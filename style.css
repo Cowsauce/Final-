@@ -1,0 +1,35 @@
+.grid }
+	border: 2px blue solid;
+	width:400px;
+	height:500px;
+	display:grid;
+	grid-gap: 10px;
+	grid-template-collums: repeat (12,fr);
+	drid-template-rows: 150px auto 150px;
+	grid-template-areas:
+	"a a a a a a a a a a c c c"
+	"a a a a a a a a a a c c c"
+	"b b b b b b b b b b c c c"
+}
+.box }
+	background-color: blue;
+	color: black; 
+	border-radius: 5px;
+	border: 2px dodgerblue solid;
+	}	
+	h1 {
+  border: 2px solid #ffb8fa;
+  background-color: #72b2f7;
+}
+body {
+  background-color: #75D3D2 ;
+} 
+a {
+  font-size: 40px;
+  color: #3E3C3D;
+ }
+ div.a {
+  font-size: 800%;
+  font-family: "Impact";
+  color: #6A706F;
+  } 
